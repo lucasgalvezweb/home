@@ -10,97 +10,166 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: .8rem;
+  margin-top: 0.8rem;
 }
 
 .fondo {
-    background-image: url('../img/fondo.jpg');
-    background-attachment: fixed;
-    width: 100%;
-    height: 660px;
-    background-size: cover;
+  background-image: url("../img/fondo-dark.jpg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 660px;
+  background-size: cover;
 }
 
 .acomodar-texto {
-    padding-top: 220px;
-    box-sizing: border-box;
+  padding-top: 220px;
+  box-sizing: border-box;
 }
 
 .acomodar-texto h2 {
-    font-size: 35px;
+  font-size: 42px;
+}
+
+.acomodar-texto h1 {
+  font-size: 62px;
+  font-weight: bold;
 }
 
 .servicios {
-    /* padding: 100px 0px 60px; */
-    padding: 57px 0px 17px;
+  padding: 57px 0px 17px;
 }
 
 .servicios h1 {
-    font-size: 50px;
-    font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .configfila {
-    margin: 80px 0px !important;
+  margin: 80px 0px !important;
 }
 
 .configimg {
-    border-radius: 22%;
-    height: 100px;
-    width: 100px;
+  border-radius: 22%;
+  height: 100px;
+  width: 100px;
 }
 
 .configfila p {
-    color: #636363;
+  color: #636363;
 }
 
 .configfila h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .servicios h2 {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .un-icono {
-    margin-top: 13px;
+  margin-top: 13px;
 }
 
 .dos-iconos {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 .cuatro-iconos {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-.portafolio{
-    height: 1236px;
-    width: 100%;
-    padding: 100px 0px 50px;
+.portafolio {
+  width: 100%;
+  padding: 100px 0px 50px;
 }
 
-.portafolio h1{
-    font-size: 50px;
+.portafolio h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.nuestro-equipo {
+  padding: 100px 0px 50px;
+  width: 100%;
+  background-image: url("../img/fondo-dark.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.nuestro-equipo h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.config-equipo {
+  margin: 80px 0px !important;
+}
+
+.pie-pagina {
+  height: 50px;
+}
+
+.pie-pagina h6 {
+  line-height: 50px;
+}
+
+/* ============================================ Responsive ===============================*/
+
+@media (min-width: 992px) {
+    .acomodar-texto h2 {
+        font-size: 42px;
+      }
+    
+      .acomodar-texto h1 {
+        font-size: 62px;
+        font-weight: bold;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .acomodar-texto h2 {
+        font-size: 38px;
+      }
+    
+      .acomodar-texto h1 {
+        font-size: 58px;
+        font-weight: bold;
+      }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .acomodar-texto h2 {
+        font-size: 33px;
+      }
+    
+      .acomodar-texto h1 {
+        font-size: 43px;
+        font-weight: bold;
+      }
+}
+
+@media (min-width: 480px) and (max-width: 574px) {
+    .acomodar-texto h2 {
+        font-size: 30px;
+      }
+    
+      .acomodar-texto h1 {
+        font-size: 40px;
+        font-weight: bold;
+      }
+}
+
+@media (max-width: 479px) {
+  .acomodar-texto h2 {
+    font-size: 22px;
+  }
+
+  .acomodar-texto h1 {
+    font-size: 32px;
     font-weight: bold;
-}
-
-.card{
-    margin-top: 30px;
-}
-
-.nuestro-equipo{
-    height: 1236px;
-    padding: 100px 0px 50px;
-    width: 100%;
-
-}
-
-.nuestro-equipo h1{
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.config-equipo{
-    margin: 80px 0px !important;
+  }
 }
