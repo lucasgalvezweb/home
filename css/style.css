@@ -173,3 +173,7 @@ h6 {
     font-weight: bold;
   }
 }
+
+.scroll-cabecera{
+  scroll-behavior: smooth;
+}
